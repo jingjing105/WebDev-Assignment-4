@@ -1,0 +1,149 @@
+.container-fluid{
+    background-color:powderblue;
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.241); 
+}
+
+footer {
+    background-color: powderblue;
+}
+.cheese{
+    width: 75px; 
+    height: auto;
+}
+
+.navbar-brand .brand-name{
+    font-family: Papyrus;
+    font-size: 30px;
+}
+.dropdown-item{
+    font-weight: bold;
+}
+
+#header-actions svg {
+    width: 40px; 
+    height: 40px; 
+}
+
+#account{
+    width: 50px;
+    height: auto;
+}
+
+#cart{
+    width: 50px;
+    height: auto;
+}
+
+#header-actions .icon-link{
+    margin-right: 20px; 
+}
+
+.carousel-item img {
+    width: auto; 
+    height: 700px; 
+}
+
+#rocket{
+    width: 200px;
+    height: auto;
+    position: absolute; 
+    top: 130px; 
+    left: 150px; 
+}
+
+#moon{
+    width: 200px;
+    height: auto;
+    position: absolute; 
+    top: 400px; 
+    left: 1100px; 
+}
+
+#title{
+    font-family: 'Papyrus';
+    font-size: 70px;
+    font-weight: bold;
+}
+#description{
+    font-size: 25px; 
+    font-family: 'Varela Round';
+}
+
+.btn-primary {
+    background-color: powderblue; 
+    border-color: powderblue; 
+    border-width: 5px;
+    color: black;
+}
+
+.btn-outline-secondary {
+    color: black; 
+    border-color: powderblue;
+    border-width: 5px; 
+}
+
+.carousel-caption h1{
+    font-family: 'Varela Round';
+    font-size: 55px; 
+    color: powderblue;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 0 0 2px black; 
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-family:'Varela Round';
+    font-size: 30px; 
+    color: yellow;
+    -webkit-text-stroke: 0.8px black;
+    text-shadow: 0 0 0.8px black; 
+    font-weight: bold;
+  
+}
+
+#position{
+    top: 200px;
+}
+
+.nav-item{
+    font-family: 'Varela Round';
+    color: black;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.d-flex p{
+    padding-left: 30px;
+    font-family: 'Varela Round';
+    color: black;
+    font-size: 20px;
+}
+
+.feature-icon img{
+    height: 400px;
+    width: auto;
+}
+
+.pb-2{
+    font-family: 'Varela Round';
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 20px;
+}
+
+.icon-link img{
+    height: 40px;
+    width: auto;
+}
+
+.icon-link{
+    font-family: 'Varela Round';
+    font-weight: bold;
+    color: rgb(90, 190, 203) 
+}
+

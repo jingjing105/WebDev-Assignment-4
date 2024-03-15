@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Cheese</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" >
+</head>
+<body>
+    <!-- The navbar at the top -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="cheese" src="./assets/images/png/cheese.png" alt="Delicious Cheese"/>
+            <span class="brand-name">LUNAR CHEESE</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP NOW
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Signature Cheese</a></li>
+                  <li><a class="dropdown-item" href="#">Top Sellers</a></li>
+                  <li><a class="dropdown-item" href="#">Cheese Collection</a></li>
+                  <li><a class="dropdown-item" href="#">Gift Box</a></li>
+                  <li><a class="dropdown-item" href="#">Subscription Box</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="header-actions">
+            <a href="/account" aria-label="Account page">
+              <img id="account" class="icon-link" src="./assets/images/png/user.png" alt="User Icon"/>
+            </a>
+            <a href="/cart" aria-label="Open cart">
+              <img class= "icon-link" id="cart" src="./assets/images/png/shopping-cart.png" alt="Shopping Cart"/>
+            </a>
+          </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Product" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">FIND</button>
+        </form>
+      </div>
+    </nav>
+
+      <!-- The middle part-->
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis" id="title">Lunar Cheese Enterprise</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4" id="description">Welcome to Lunar Cheese Enterprises, where we bring you the out-of-this-world taste of cheese from the moon! Our team of interstellar dairy experts has perfected the art of harvesting lunar cheese, utilizing advanced technology to extract the most delectable flavors from the lunar surface. With our products, you can experience a taste that's truly celestial. Try our moon-aged cheddar or our crater-blue cheese today and embark on a cosmic culinary journey!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Products</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+        </div>
+      </div>
+    <img id="rocket" src="./assets/images/png/rocket-cheese.png" alt="Rocket Moon"/>
+    <img id="moon" src="./assets/images/png/cheese-moon.png" alt="Moon Cheese"/>
+  </div>
+
+     <!-- carousel part-->
+     <div class="container">
+      <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./assets/images/jpeg/moon-harvest.jpg" class="d-block w-100"/>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Fresh From The Moon</h1>
+                <p>Harvested using specialized lunar rovers to extract moon rock samples containing unique microbial organisms, used to ferment lunar minerals to create this celestial delicacy.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="./assets/images/jpeg/cheese-factory.jpg" class="d-block w-100"/>
+            <div class="container">
+              <div class="carousel-caption" id="position">
+                <h1>Where it Happens</h1>
+                <p>The lunar cheese factory, utilizes futuristic machinery to processes the harvested moon cheese, transforming it into a celestial culinary delight.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/jpeg/cheese.jpg" class="d-block w-100"/>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Lunar Cheese Selection</h1>
+                <p>Indulge in our delectable selection of lunar cheeses, each crafted with precision and care to offer a tantalizing taste of the moon's celestial flavors.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Shop Now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  <!-- three icon part-->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Discover Our Finest Selection of Cheeses</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/images/png/cheddar.png" alt="Cheddar Cheese"/>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Crater Cheddar</h3>
+        <p>A sharp and tangy cheese aged in lunar craters, infused with the essence of space minerals.</p>
+        <h4>$30.00 / lb</h4>
+        <a href="#" class="icon-link">
+          ADD TO CART
+         <img src="./assets/images/png/ecommerce.png" />
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/images/png/brie.png" alt="Brie Cheese">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Lunar Brie</h3>
+        <p>A creamy and delicate cheese made from the milk of lunar cows, grazing on the lush lunar plains under the soft glow of Earth.</p>
+        <h4>$35.00 / lb</h4>
+        <a href="#" class="icon-link">
+          ADD TO CART
+          <img src="./assets/images/png/ecommerce.png" />
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/images/png/blue.png" alt="Blue Cheese"/>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Space Blue</h3>
+        <p>A tangy and rich blue cheese with veins of silver, aged in lunar caves and seasoned with moon dust for a truly out-of-this-world taste.</p>
+        <h4>$40.00 / lb</h4>
+        <a href="#" class="icon-link">
+          ADD TO CART
+          <img src="./assets/images/png/ecommerce.png" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer part-->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Lunar Cheese Enterprise, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Shop</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Reviews</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Refund Policy</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+    </ul>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
